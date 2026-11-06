@@ -247,21 +247,4 @@ future deployment should serve the UI and API behind a secured same-origin
 reverse proxy and complete the security, legal, privacy, and model-governance
 work described above first.
 
-## Recommended live demo sequence
 
-1. Start the API and React dashboard using the commands above; open the
-   Command Center.
-2. Show the synthetic institution and transaction overview, then open the
-   alert queue and its matched evidence.
-3. Use **Review signals** to inspect linked transaction signal details, then
-   **Trace network** and select graph nodes to follow connected synthetic
-   activity.
-4. Open Geographic Intelligence and call out that every coordinate is a
-   separately labelled synthetic fixture.
-5. Open Model Intelligence to review the actual held-out benchmark results;
-   run the explicitly synthetic inference smoke input if the model artifact is
-   present.
-6. Create a case, update its status, and review its timeline and audit event.
-
-If no model run is registered, the UI intentionally reports that state rather
-than displaying invented results; omit the inference step.
