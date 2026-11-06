@@ -1,0 +1,8 @@
+streamlit>=1.39
+pandas>=2.2
+networkx>=3.3
+plotly>=5.24
+scikit-learn>=1.5
+fastapi>=0.115
+uvicorn[standard]>=0.30
+joblib>=1.4
